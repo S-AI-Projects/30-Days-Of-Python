@@ -1,5 +1,5 @@
 import unittest
-from example import price
+from example import price, validate_quantity
 
 
 class TestPrice(unittest.TestCase):
@@ -16,6 +16,11 @@ class TestPrice(unittest.TestCase):
     def test_keyword_only(self):
         with self.assertRaises(TypeError):
             price(3, 10, 0.1)
+
+    def test_validate_quantity_helper(self):
+        validate_quantity(0)  # must not raise
+        with self.assertRaises(ValueError):
+            validate_quantity(-5)
 
 
 if __name__ == "__main__":
