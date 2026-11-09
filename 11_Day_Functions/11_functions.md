@@ -511,3 +511,10 @@ print(sum_of_numbers(100)) # 5050
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 10](../10_Day_Loops/10_loops.md) | [Day 12 >>](../12_Day_Modules/12_modules.md)
+## Added activity: Price function with keyword-only arguments
+
+This is an added activity, not one of the numbered exercises.
+
+- Lab: [applied-labs/r27-t054](./applied-labs/r27-t054/)
+- Inputs: `price(3, unit_price=10, discount=0.1)`, `price(0, unit_price=10, discount=0.1)`, `price(-1, unit_price=10)`
+- Expected results: `27`, `0`, and a `ValueError`
