@@ -457,3 +457,11 @@ distance = 8 -(-12) # 20
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 17](../17_Day_Exception_handling/17_exception_handling.md) | [Day 19>>](../19_Day_File_handling/19_file_handling.md)
+## Added activity: Regular-expression groups and date validation
+
+This is an added activity, not one of the numbered exercises.
+
+- Lab: [applied-labs/r27-t051](./applied-labs/r27-t051/)
+- Inputs: `extract_date('2024-02-29')`, `extract_date('2023-02-29')`, `extract_date('text without a token')`
+- Expected results: `'2024-02-29'`, `ValueError`, and `None`
+
