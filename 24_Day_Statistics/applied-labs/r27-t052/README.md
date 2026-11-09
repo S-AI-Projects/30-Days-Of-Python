@@ -15,3 +15,4 @@
 From the repository root:
 
     python3 -m unittest discover -s 24_Day_Statistics/applied-labs/r27-t052 -p "test_*.py"
+
