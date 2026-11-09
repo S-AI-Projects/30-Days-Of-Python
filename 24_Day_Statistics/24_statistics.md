@@ -1238,3 +1238,20 @@ To summarize, the main differences with python lists are:
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 23](../23_Day_Virtual_environment/23_virtual_environment.md) | [Day 25 >>](../25_Day_Pandas/25_pandas.md)
+## Added activity: Missing-value summary with boundary handling
+
+This is an added activity, not one of the numbered exercises.
+
+- Lab: [applied-labs/r27-t052](./applied-labs/r27-t052/)
+- Inputs: `missing_value_summary([1, None, 3, 5])`, `missing_value_summary([None, None])`, `missing_value_summary([])`
+- Expected results: `{'count': 3, 'missing_count': 1, 'mean': 3, 'median': 3}`, null mean/median `{'count': 0, 'missing_count': 2, 'mean': None, 'median': None}`, and empty-input `{'count': 0, 'missing_count': 0, 'mean': None, 'median': None}`
+
+### Boundary Condition Explanation
+
+When computing summary statistics on data containing missing (`None`) values, the non-missing numeric values are isolated to compute the `count`, `mean`, and `median`.
+
+The key boundary condition occurs when `count == 0` (which happens if the input is completely empty `[]` or consists solely of missing values `[None, ...]`):
+- Calculating `mean` would otherwise result in a division by zero (`0 / 0`), and computing `median` has no elements to evaluate.
+- Therefore, `mean` and `median` are explicitly returned as `None` (null) to represent undefined statistics cleanly.
+- Non-iterable inputs or sequences containing non-numeric types raise a `TypeError` to guard against invalid input.
+
