@@ -52,3 +52,4 @@ if __name__ == "__main__":
     print("\nBounded experiment operation counts:")
     for m in run_bounded_experiment():
         print(f"Input size {m['input_size']}: {m['operation_count']} operations")
+
