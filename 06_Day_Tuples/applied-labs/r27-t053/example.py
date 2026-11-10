@@ -46,3 +46,4 @@ if __name__ == "__main__":
     print("Shift:     ", delta)
     print("Translated:", translated)
     print("Input unchanged:", coords == ((1, 2), (3, 4)))
+
