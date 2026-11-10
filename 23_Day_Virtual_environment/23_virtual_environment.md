@@ -112,3 +112,11 @@ The necessary modules to work with flask are installed. Now, your project direct
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 22](../22_Day_Web_scraping/22_web_scraping.md) | [Day 24 >>](../24_Day_Statistics/24_statistics.md)
+## Added activity: Environment reporting and input-scale experiment
+
+This is an added activity, not one of the numbered exercises.
+
+- Lab: [applied-labs/r27-t056](./applied-labs/r27-t056/)
+- Inputs: `report_environment()`, `run_bounded_experiment([1, 5, 20])`
+- Expected results: JSON containing only `executable`, `version`, and `system` without environment secrets; exact matching operation counts `[1, 5, 20]` across bounded input sizes
+
