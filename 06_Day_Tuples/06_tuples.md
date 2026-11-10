@@ -252,3 +252,11 @@ del fruits
 
 
 [<< Day 5](../05_Day_Lists/05_lists.md) | [Day 7 >>](../07_Day_Sets/07_sets.md)
+## Added activity: Coordinate tuples translation with reference comparison
+
+This is an added activity, not one of the numbered exercises.
+
+- Lab: [applied-labs/r27-t053](./applied-labs/r27-t053/)
+- Inputs: `translate_points(((1, 2), (3, 4)), (2, -1))`, `translate_points(((0, 0),), (5, 5))`, `translate_points((), (1, 1))`
+- Expected results: `((3, 1), (5, 3))`, `((5, 5),)`, and `()`
+
