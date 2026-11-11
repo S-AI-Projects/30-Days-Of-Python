@@ -202,6 +202,16 @@ else:
 
 ## 💻 Exercises: Day 9
 
+### Added activity: Shipping-cost input-scale lab
+
+This is an added activity, not an original numbered exercise. In the
+[shipping-cost lab](applied-labs/r27-t019/README.md), use `if`/`elif` conditions
+to return shipping cost `10` for totals below `50`, `5` for totals from `50` to
+below `100`, and `0` for totals of `100` or more; reject negative totals with
+`ValueError`. Check inputs `49.99`, `50`, `99.99`, and `100` against expected
+costs `10`, `5`, `5`, and `0` (and `-1` against `ValueError`). The tests also
+check 4, 40, and 400 totals and report evaluation counts.
+
 ### Exercises: Level 1
 
 1. Get user input using input(“Enter your age: ”). If user is 18 or older, give feedback: You are old enough to drive. If below 18 give feedback to wait for the missing amount of years. Output:
