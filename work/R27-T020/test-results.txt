@@ -1,0 +1,19 @@
+Correct implementation:
+$ python3 -m unittest discover -s 13_Day_List_comprehension/applied-labs/r27-t020 -p "test_*.py"
+Ran 3 tests in 0.000s
+OK
+Exit status: 0
+
+Fresh-process example:
+$ python3 13_Day_List_comprehension/applied-labs/r27-t020/example.py
+{-2: 4, 0: 0, 2: 4}
+Exit status: 0
+
+One-line mutant:
+Changed `number % 2 == 0` to `number % 2 != 0`.
+$ python3 -m unittest discover -s 13_Day_List_comprehension/applied-labs/r27-t020 -p "test_*.py" -k test_even_values_are_squared_and_odd_values_are_excluded
+Expected result: the focused test fails with exit status 1.
+Actual assertion difference: {-1: 1, 1: 1} != {-2: 4, 0: 0, 2: 4}
+Observed result: FAILED (failures=1), exit status 1.
+
+The mutant was temporary and was reverted before committing.

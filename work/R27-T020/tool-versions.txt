@@ -1,0 +1,5 @@
+Python: Python 3.14.6
+Git: git version 2.55.0
+GitHub CLI: gh version 2.101.0 (2026-09-15)
+macOS: 27.2
+Test runner: Python standard-library unittest
