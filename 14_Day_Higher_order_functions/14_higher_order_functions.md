@@ -323,6 +323,17 @@ total = reduce(add_two_nums, numbers_str)
 print(total)    # 15
 ```
 
+## Added Activity: Reusable Text Normalization Pipeline
+
+This added activity applies higher-order functions by composing text transformations into a reusable normalization pipeline. It is separate from the original numbered exercises.
+
+- Input: `" HELLO World "`
+- Expected result: `"hello world"`
+- Additional input: `"  HELLO   World  "`
+- Expected result: `"hello world"`
+
+See the [worked example and tests](./applied-labs/r27-t017/README.md).
+
 ## 💻 Exercises: Day 14
 
 ```py
