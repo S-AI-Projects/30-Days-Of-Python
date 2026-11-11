@@ -1,0 +1,13 @@
+{
+  "intersection": [
+    "Bo"
+  ],
+  "first_only": [
+    "Ana"
+  ],
+  "union": [
+    "Ana",
+    "Bo",
+    "Cy"
+  ]
+}
