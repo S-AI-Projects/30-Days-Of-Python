@@ -1,0 +1,2 @@
+# R27-T047 declared dependencies
+# Standard library only
