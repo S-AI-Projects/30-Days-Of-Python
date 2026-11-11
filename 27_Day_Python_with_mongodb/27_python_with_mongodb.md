@@ -34,6 +34,7 @@
     - [Update with query](#update-with-query)
     - [Delete Document](#delete-document)
     - [Drop a collection](#drop-a-collection)
+  - [Added activity: In-memory document store](#added-activity-in-memory-document-store)
   - [💻 Exercises: Day 27](#-exercises-day-27)
 
 # 📘 Day 27
@@ -652,6 +653,10 @@ db.students.drop()
 ```
 
 Now, we have deleted the students collection from the database.
+
+### Added activity: In-memory document store
+
+Try the [R27-T018 in-memory document-store lab](applied-labs/r27-t018/README.md). Insert `{"id": 1, "name": "Ada"}`, attempt a duplicate ID, then update the name to Grace. The duplicate is rejected without stopping the example; the next valid input succeeds, and finding ID 1 returns `{"id": 1, "name": "Grace"}`. This is a new applied activity using local in-memory data, not a MongoDB integration or an original numbered exercise.
 
 ## 💻 Exercises: Day 27
 

@@ -1,0 +1,8 @@
+1. Start with an empty in-memory store and find document ID 1.
+2. Insert {"id": 1, "name": "Ada"}.
+3. Attempt to insert {"id": 1, "name": "Duplicate"} and verify the duplicate-ID error.
+4. Without restarting, update ID 1 with {"name": "Grace"}.
+5. Find ID 1.
+
+Automated check:
+python3 -m unittest discover -s 27_Day_Python_with_mongodb/applied-labs/r27-t018 -p "test_*.py"

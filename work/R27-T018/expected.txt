@@ -1,0 +1,8 @@
+Example output:
+Initial find id 1: None
+Inserted: {'id': 1, 'name': 'Ada'}
+Duplicate rejected: document with id 1 already exists
+Recovered on the next valid input: updated name to Grace
+Find id 1: {'id': 1, 'name': 'Grace'}
+
+Expected test result: all discovered tests pass; an assertion failure must make unittest return nonzero.
