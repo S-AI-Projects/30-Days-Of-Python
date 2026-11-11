@@ -1,0 +1,51 @@
+{
+  "comparison": "Each actual mapping was produced by example.count_words and compared with the independent expected-result fixture in test_example.py.",
+  "cases": [
+    {
+      "input": "Tea, tea! isn't coffee.",
+      "expected": {
+        "tea": 2,
+        "isn't": 1,
+        "coffee": 1
+      },
+      "actual": {
+        "tea": 2,
+        "isn't": 1,
+        "coffee": 1
+      },
+      "matches": true
+    },
+    {
+      "input": "",
+      "expected": {},
+      "actual": {},
+      "matches": true
+    },
+    {
+      "input": "'TEA' tea!",
+      "expected": {
+        "tea": 2
+      },
+      "actual": {
+        "tea": 2
+      },
+      "matches": true
+    },
+    {
+      "input": "ISN'T isn't",
+      "expected": {
+        "isn't": 2
+      },
+      "actual": {
+        "isn't": 2
+      },
+      "matches": true
+    },
+    {
+      "input": "... !!!",
+      "expected": {},
+      "actual": {},
+      "matches": true
+    }
+  ]
+}

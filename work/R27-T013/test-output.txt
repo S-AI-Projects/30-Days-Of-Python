@@ -1,0 +1,6 @@
+$ python3 -m unittest discover -s 04_Day_Strings/applied-labs/r27-t013 -p "test_*.py"
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK

@@ -34,6 +34,7 @@
       - [Reversing a String](#reversing-a-string)
       - [Skipping Characters While Slicing](#skipping-characters-while-slicing)
     - [String Methods](#string-methods)
+  - [Added activity: Word counter applied lab](#added-activity-word-counter-applied-lab)
   - [💻 Exercises - Day 4](#-exercises---day-4)
 
 # Day 4
@@ -530,6 +531,13 @@ challenge = '30 days of python'
 print(challenge.startswith('thirty')) # False
 ```
 
+### Added activity: Word counter applied lab
+
+As an added activity (not an original numbered exercise), try the
+[word counter applied lab](applied-labs/r27-t013/README.md). For the input
+`Tea, tea! isn't coffee.`, the expected result is
+`{"tea": 2, "isn't": 1, "coffee": 1}`; an empty input produces `{}`.
+
 🌕 You are an extraordinary person and you have a remarkable potential. You have just completed day 4 challenges and you are four steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
 
 ## 💻 Exercises - Day 4
@@ -601,5 +609,4 @@ The area of a circle with radius 10 is 314 meters square.
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 3](../03_Day_Operators/03_operators.md) | [Day 5 >>](../05_Day_Lists/05_lists.md)
-
 
