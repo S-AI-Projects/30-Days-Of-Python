@@ -155,6 +155,13 @@ print(two_power_of_five)  # 32
 
 ## 💻 Exercises: Day 13
 
+**Added activity (not an original numbered exercise):** Try the [R27-T020 applied lab](./applied-labs/r27-t020/README.md) to create a mapping from even integers to their squares.
+
+```py
+numbers = [-2, -1, 0, 1, 2]
+# {-2: 4, 0: 0, 2: 4}
+```
+
 1. Filter only negative and zero in the list using list comprehension
    ```py
    numbers = [-4, -3, -2, -1, 0, 2, 4, 6]
