@@ -1,0 +1,30 @@
+{
+  "valid_post": {
+    "method": "POST",
+    "path": "/items",
+    "body": "{\"name\": \"notebook\"}",
+    "expected_status": 201,
+    "expected_body": {"id": 1, "name": "notebook"}
+  },
+  "list_after_post": {
+    "method": "GET",
+    "path": "/items",
+    "body": null,
+    "expected_status": 200,
+    "expected_body": [{"id": 1, "name": "notebook"}]
+  },
+  "malformed_json": {
+    "method": "POST",
+    "path": "/items",
+    "body": "{\"name\":",
+    "expected_status": 400,
+    "expected_body": {"error": "Malformed JSON"}
+  },
+  "unsupported_method": {
+    "method": "PUT",
+    "path": "/items",
+    "body": null,
+    "expected_status": 405,
+    "expected_body": {"error": "Method not allowed"}
+  }
+}

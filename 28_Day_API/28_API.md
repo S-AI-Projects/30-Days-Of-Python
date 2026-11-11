@@ -157,6 +157,16 @@ The GET, POST, PUT and DELETE are the HTTP request methods which we are going to
 
 1. Read about API and HTTP
 
+### Added activity: local in-memory `/items` endpoint
+
+As an added activity (not an original numbered exercise), run
+[`applied-labs/r27-t016/`](applied-labs/r27-t016/README.md) to apply HTTP
+methods, JSON request bodies, and status codes. POST
+`{"name": "notebook"}` to `/items`, then GET `/items`; expect `201 Created`,
+followed by a list containing the item. Malformed JSON returns `400 Bad Request`
+and an unsupported method returns `405 Method Not Allowed`. The activity
+includes an injected in-memory store and standard-library tests.
+
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 27](../27_Day_Python_with_mongodb/27_python_with_mongodb.md) | [Day 29 >>](../29_Day_Building_API/29_building_API.md)
