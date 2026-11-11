@@ -35,6 +35,7 @@
       - [Create requirements and Procfile](#create-requirements-and-procfile)
       - [Pushing project to heroku](#pushing-project-to-heroku)
   - [Exercises: Day 26](#exercises-day-26)
+  - [Added activity: JSON sum request handler](#added-activity-json-sum-request-handler)
 
 # 📘 Day 26
 
@@ -564,6 +565,14 @@ After this step you will get an application like [this](http://thirdaysofpython-
 ## Exercises: Day 26
 
 1. You will build [this application](https://thirtydaysofpython-v1-final.herokuapp.com/). Only the text analyser part is left
+
+## Added activity: JSON sum request handler
+
+This is an added activity, not an original numbered exercise. Send
+`{"a":2,"b":3}` to the handler and expect status 200 with `{"sum":5}`.
+Omitting `b` or sending a string operand returns status 400. See the
+[JSON sum request handler lab](applied-labs/r27-t014/README.md) for the
+invariant, runnable example, and tests.
 
 
 🎉 CONGRATULATIONS ! 🎉
