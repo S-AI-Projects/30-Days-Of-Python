@@ -1,0 +1,20 @@
+test_exactly_zero_is_allowed (test_example.TestApplyChanges.test_exactly_zero_is_allowed) ... ERROR
+test_main_example (test_example.TestApplyChanges.test_main_example) ... ok
+test_negative_raises (test_example.TestApplyChanges.test_negative_raises) ... ok
+test_original_unchanged (test_example.TestApplyChanges.test_original_unchanged) ... ok
+
+======================================================================
+ERROR: test_exactly_zero_is_allowed (test_example.TestApplyChanges.test_exactly_zero_is_allowed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspaces/30-Days-Of-Python/08_Day_Dictionaries/applied-labs/r27-t050/test_example.py", line 22, in test_exactly_zero_is_allowed
+    self.assertEqual(apply_changes({"tea": 2}, {"tea": -2}), {"tea": 0})
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/30-Days-Of-Python/08_Day_Dictionaries/applied-labs/r27-t050/example.py", line 8, in apply_changes
+    raise ValueError(f"Stock for '{item}' would be negative")
+ValueError: Stock for 'tea' would be negative
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (errors=1)
