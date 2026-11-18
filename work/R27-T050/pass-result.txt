@@ -1,0 +1,9 @@
+test_exactly_zero_is_allowed (test_example.TestApplyChanges.test_exactly_zero_is_allowed) ... ok
+test_main_example (test_example.TestApplyChanges.test_main_example) ... ok
+test_negative_raises (test_example.TestApplyChanges.test_negative_raises) ... ok
+test_original_unchanged (test_example.TestApplyChanges.test_original_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
