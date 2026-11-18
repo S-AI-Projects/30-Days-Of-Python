@@ -586,3 +586,8 @@ ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 4](../04_Day_Strings/04_strings.md) | [Day 6 >>](../06_Day_Tuples/06_tuples.md)
+
+
+### Added activity: Remove Duplicates (applied lab, not an original numbered exercise)
+Input `[3, 1, 3, 2, 1]` gives `[3, 1, 2]`; `[]` stays `[]`; the original list is unchanged.
+See [applied-labs/r27-t044](./applied-labs/r27-t044/README.md).
