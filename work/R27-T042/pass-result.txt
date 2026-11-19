@@ -1,0 +1,15 @@
+test_empty_input_returns_empty_tuple (test_example.TestTranslate.test_empty_input_returns_empty_tuple) ... ok
+test_empty_point_raises (test_example.TestTranslate.test_empty_point_raises) ... ok
+test_input_unchanged (test_example.TestTranslate.test_input_unchanged) ... ok
+test_main_example (test_example.TestTranslate.test_main_example) ... ok
+test_non_tuple_input_raises (test_example.TestTranslate.test_non_tuple_input_raises) ... ok
+test_one_bad_point_among_good_ones_raises (test_example.TestTranslate.test_one_bad_point_among_good_ones_raises) ... ok
+test_point_with_one_coordinate_raises (test_example.TestTranslate.test_point_with_one_coordinate_raises) ... ok
+test_point_with_three_coordinates_raises (test_example.TestTranslate.test_point_with_three_coordinates_raises) ... ok
+test_zero_shift_returns_equal_points (test_example.TestTranslate.test_zero_shift_returns_equal_points) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK
+exit code: 0

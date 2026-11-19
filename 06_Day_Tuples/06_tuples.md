@@ -252,3 +252,9 @@ del fruits
 
 
 [<< Day 5](../05_Day_Lists/05_lists.md) | [Day 7 >>](../07_Day_Sets/07_sets.md)
+
+
+### Added activity: Translate 2D Points (applied lab, not an original numbered exercise)
+Input `((1, 2), (3, 4))` shifted by `(2, -1)` gives `((3, 1), (5, 3))`; the input is unchanged; `()` gives `()`.
+Boundary: every point must have exactly 2 coordinates, so a point with 1 or 3 coordinates raises `ValueError`.
+See [applied-labs/r27-t042](./applied-labs/r27-t042/README.md).
