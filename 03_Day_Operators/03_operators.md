@@ -316,3 +316,9 @@ You have lived for 3153600000 seconds.
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 2](../02_Day_Variables_builtin_functions/02_variables_builtin_functions.md) | [Day 4 >>](../04_Day_Strings/04_strings.md)
+
+## Added Activity: Applied Lab R27-T033
+- **Topic:** Percentage discount calculation using Decimal and rounding to two decimals.
+- **Location:** [applied-labs/r27-t033](applied-labs/r27-t033/README.md)
+- **Inputs:** `100.00` at `5% and `0%`
+- **Expected Result:** `100.00` at `5% => `85.00`; `0% leaves amount unchanged; percentages outside 0..100 are rejected with `ValueError`.
