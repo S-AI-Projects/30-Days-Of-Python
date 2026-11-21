@@ -463,3 +463,10 @@ The sum of all numbers is 5050.
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 9](../09_Day_Conditionals/09_conditionals.md) | [Day 11 >>](../11_Day_Functions/11_functions.md)
+
+
+## Added Activity: Applied Lab R27-T036
+- **Topic:** Run-length encoding and responsibility extraction.
+- **Location:** [applied-labs/r27-t036](applied-labs/r27-t036/README.md)
+- **Inputs:** `"aaabbc"`, `""`, `"aaa"`
+- **Expected Result:** `[("a", 3), ("b", 2), ("c", 1)]`, `[]`, `[("a", 3)]`.
