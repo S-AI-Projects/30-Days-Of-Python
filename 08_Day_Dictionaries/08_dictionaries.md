@@ -340,3 +340,10 @@ print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 7 ](../07_Day_Sets/07_sets.md) | [Day 9 >>](../09_Day_Conditionals/09_conditionals.md)
+
+
+## Added Activity: Applied Lab R27-T034
+- **Topic:** Inventory mapping state and non-negative stock invariant.
+- **Location:** [applied-labs/r27-t034](applied-labs/r27-t034/README.md)
+- **Inputs:** `{"tea": 3}` plus `{"tea": -2, "coffee": 4}` and invalid `{"tea": -4}`
+- **Expected Result:** `{"tea": 1, "coffee": 4}`; rejects `{"tea": -4}` with `ValueError` and preserves original state.
