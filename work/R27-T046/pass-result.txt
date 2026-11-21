@@ -1,0 +1,14 @@
+test_inputs_are_not_modified (test_example.TestContract.test_inputs_are_not_modified) ... ok
+test_main_example (test_example.TestContract.test_main_example) ... ok
+test_typo_limt_is_rejected (test_example.TestContract.test_typo_limt_is_rejected) ... ok
+test_example_runs_in_fresh_process (test_example.TestPublishedExample.test_example_runs_in_fresh_process) ... ok
+test_extracted_responsibility_on_its_own (test_example.TestRefactoring.test_extracted_responsibility_on_its_own) ... ok
+test_original_version_matches_captured_behavior (test_example.TestRefactoring.test_original_version_matches_captured_behavior) ... ok
+test_refactored_version_calls_the_extracted_function (test_example.TestRefactoring.test_refactored_version_calls_the_extracted_function) ... ok
+test_refactored_version_matches_captured_behavior (test_example.TestRefactoring.test_refactored_version_matches_captured_behavior) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.038s
+
+OK
+exit code: 0
