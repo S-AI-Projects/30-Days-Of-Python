@@ -1,0 +1,3 @@
+Python 3.14.2
+Python 3.14.2
+pip 25.3 from /tmp/r27-t043-venv/lib/python3.14/site-packages/pip (python 3.14)
