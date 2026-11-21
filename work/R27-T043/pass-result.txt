@@ -1,0 +1,16 @@
+test_implementation_matches_reference_on_all_short_strings (test_example.TestAgainstReference.test_implementation_matches_reference_on_all_short_strings) ... ok
+test_reference_is_independent (test_example.TestAgainstReference.test_reference_is_independent) ... ok
+test_implementation_matches_table (test_example.TestAgainstTable.test_implementation_matches_table) ... ok
+test_main_example (test_example.TestAgainstTable.test_main_example) ... ok
+test_reference_matches_table (test_example.TestAgainstTable.test_reference_matches_table) ... ok
+test_declared_dependencies_are_empty (test_example.TestPackaging.test_declared_dependencies_are_empty) ... ok
+test_example_has_no_imports (test_example.TestPackaging.test_example_has_no_imports) ... ok
+test_example_runs_in_fresh_process (test_example.TestPackaging.test_example_runs_in_fresh_process) ... ok
+test_import_without_user_site_packages (test_example.TestPackaging.test_import_without_user_site_packages) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.058s
+
+OK
+compared 5461 strings, all agree
+exit code: 0
