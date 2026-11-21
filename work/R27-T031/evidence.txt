@@ -1,0 +1,14 @@
+Python 3.14.7
+test_fixture_difference_1800_seconds (test_example.TestTimezoneAwareTimestamps.test_fixture_difference_1800_seconds)
+Verify the exact fixture from the task contract differs by 1800s. ... ok
+test_fixture_order_independence (test_example.TestTimezoneAwareTimestamps.test_fixture_order_independence)
+Verify calculation is symmetric. ... ok
+test_reject_naive_timestamp (test_example.TestTimezoneAwareTimestamps.test_reject_naive_timestamp)
+Reject timestamps that lack an explicit offset. ... ok
+test_valid_utc_timezone_conversion (test_example.TestTimezoneAwareTimestamps.test_valid_utc_timezone_conversion)
+Ensure converted datetime is timezone-aware and matches UTC. ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

@@ -206,3 +206,10 @@ print("t3 =", t3)
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 15](../15_Day_Python_type_errors/15_python_type_errors.md) | [Day 17 >>](../17_Day_Exception_handling/17_exception_handling.md)
+
+## Added Activity: Applied Lab R27-T031
+
+- **Topic:** Timezone-aware ISO-8601 timestamp parsing and elapsed seconds in UTC.
+- **Location:** [applied-labs/r27-t031](applied-labs/r27-t031/README.md)
+- **Inputs:** `2024-01-01T10:00:00+05:30` and `2024-01-01T05:00:00+00:00`
+- **Expected Result:** `1800.0` seconds difference; rejects naive timestamps lacking a timezone offset.
