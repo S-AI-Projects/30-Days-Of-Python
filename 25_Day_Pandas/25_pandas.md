@@ -1214,3 +1214,7 @@ print(df[df['Ages'] < 120])
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 24](../24_Day_Statistics/24_statistics.md) | [Day 26 >>](../26_Day_Python_web/26_python_web.md)
+
+### Added activity: Group a CSV by Category (applied lab, not an original numbered exercise)
+Input rows `A,2`, `A,3`, `B,4` give A (count=2, sum=5) and B (count=1, sum=4); malformed rows are reported with their line number instead of being dropped.
+See [applied-labs/r27-t045](./applied-labs/r27-t045/README.md).

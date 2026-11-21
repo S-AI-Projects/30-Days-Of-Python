@@ -1,0 +1,17 @@
+test_blank_line_is_reported_not_skipped (test_example.TestGrouping.test_blank_line_is_reported_not_skipped) ... ok
+test_empty_input (test_example.TestGrouping.test_empty_input) ... ok
+test_header_only (test_example.TestGrouping.test_header_only) ... ok
+test_main_example (test_example.TestGrouping.test_main_example) ... ok
+test_malformed_rows_are_not_silently_dropped (test_example.TestGrouping.test_malformed_rows_are_not_silently_dropped) ... ok
+test_malformed_rows_identify_their_line_number (test_example.TestGrouping.test_malformed_rows_identify_their_line_number) ... ok
+test_negative_amounts_are_summed (test_example.TestGrouping.test_negative_amounts_are_summed) ... ok
+test_example_imports_only_csv_and_io (test_example.TestIsolation.test_example_imports_only_csv_and_io) ... ok
+test_source_is_injected (test_example.TestIsolation.test_source_is_injected) ... ok
+test_two_calls_agree (test_example.TestIsolation.test_two_calls_agree) ... ok
+test_two_isolated_processes_agree (test_example.TestIsolation.test_two_isolated_processes_agree) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.044s
+
+OK
+exit code: 0

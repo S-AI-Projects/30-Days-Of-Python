@@ -1,0 +1,8 @@
+A: count=2 sum=5
+B: count=1 sum=4
+---
+A: count=1 sum=2
+B: count=1 sum=4
+line 3: amount is not an integer: 'oops'
+line 4: expected 2 fields, got 1
+line 6: empty category
