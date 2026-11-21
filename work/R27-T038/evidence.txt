@@ -1,0 +1,13 @@
+=== Tool Versions ===
+Python 3.14.7
+git version 2.50.1 (Apple Git-155)
+
+=== Test Results ===
+test_failure_and_recovery_without_restart (test_example.TestKeywordMergingRecovery.test_failure_and_recovery_without_restart) ... ok
+test_fixture_override_limit (test_example.TestKeywordMergingRecovery.test_fixture_override_limit) ... ok
+test_fixture_unknown_key_rejected (test_example.TestKeywordMergingRecovery.test_fixture_unknown_key_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
