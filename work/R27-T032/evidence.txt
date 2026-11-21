@@ -1,0 +1,14 @@
+=== Tool Versions ===
+Python 3.14.7
+git version 2.50.1 (Apple Git-155)
+
+=== Test Results ===
+test_fixture_boundary_zero_zero (test_example.TestArithmeticReport.test_fixture_boundary_zero_zero) ... ok
+test_fixture_positive_integers (test_example.TestArithmeticReport.test_fixture_positive_integers) ... ok
+test_invalid_input_none (test_example.TestArithmeticReport.test_invalid_input_none) ... ok
+test_invalid_input_type (test_example.TestArithmeticReport.test_invalid_input_type) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

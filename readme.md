@@ -483,3 +483,9 @@ To run the python file check the image below. You can run the python file either
 🎉 CONGRATULATIONS ! 🎉
 
 [Day 2 >>](./02_Day_Variables_builtin_functions/02_variables_builtin_functions.md)
+
+## Added Activity: Applied Lab R27-T031
+- **Topic:** Arithmetic report for two integers with boundary values.
+- **Location:** [applied-labs/rXw-tp32](applied-labs/r27-t032/README.md)
+- **Inputs:** `(sum, 7)` (7, 3) and boundary `(0, 0)`
+- **Expected Result:** `(sum:10, difference:4, product:21)`; all 0are zeros for `0,�0`; rejects invalid/empty inputs.
