@@ -359,8 +359,3 @@ If you are good at reading the error types, then you will be able to fix your bu
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 14](../14_Day_Higher_order_functions/14_higher_order_functions.md) | [Day 16 >>](../16_Day_Python_date_time/16_python_datetime.md)
-
-
-### Added activity: Parse Integers with Indexed Errors (applied lab, not an original numbered exercise)
-Input `["3", "bad", "-2"]` gives values `[3, -2]` and one error at index 1; only `ValueError` is caught and there is no bare `except`.
-See [applied-labs/r27-t048](./applied-labs/r27-t048/README.md).

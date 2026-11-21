@@ -1,0 +1,15 @@
+test_declared_dependencies_are_empty (test_example.TestPackaging.test_declared_dependencies_are_empty) ... ok
+test_example_has_no_imports (test_example.TestPackaging.test_example_has_no_imports) ... ok
+test_import_without_user_site_packages (test_example.TestPackaging.test_import_without_user_site_packages) ... ok
+test_published_example_runs_and_matches_readme (test_example.TestPackaging.test_published_example_runs_and_matches_readme) ... ok
+test_empty_text (test_example.TestTextStats.test_empty_text) ... ok
+test_extra_whitespace_is_ignored (test_example.TestTextStats.test_extra_whitespace_is_ignored) ... ok
+test_intermediate_state (test_example.TestTextStats.test_intermediate_state) ... ok
+test_main_example (test_example.TestTextStats.test_main_example) ... ok
+test_words_are_case_sensitive (test_example.TestTextStats.test_words_are_case_sensitive) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.035s
+
+OK
+exit code: 0

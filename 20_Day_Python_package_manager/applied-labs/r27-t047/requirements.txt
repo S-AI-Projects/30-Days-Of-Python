@@ -1,0 +1,2 @@
+# Declared dependency set for R27-T047: empty.
+# This lab uses only the Python standard library.
