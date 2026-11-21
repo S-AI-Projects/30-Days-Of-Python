@@ -303,3 +303,8 @@ print(rgb_color_gen())
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 11](../11_Day_Functions/11_functions.md) | [Day 13>>](../13_Day_List_comprehension/13_list_comprehension.md)
+
+
+### Added activity: Temperature Conversion Module and CLI (applied lab, not an original numbered exercise)
+Input `0` Celsius gives `32` Fahrenheit; `100` Celsius gives `212` Fahrenheit. Importing the module prints nothing and never reads input, because the CLI is protected by a main guard.
+See [applied-labs/r27-t041](./applied-labs/r27-t041/README.md).
