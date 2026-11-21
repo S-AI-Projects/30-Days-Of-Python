@@ -457,3 +457,7 @@ The **__init__**.py exposes specified resources from its modules to be imported 
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 19](../19_Day_File_handling/19_file_handling.md) | [Day 21 >>](../21_Day_Classes_and_objects/21_classes_and_objects.md)
+
+### Added activity: Text Statistics Package (applied lab, not an original numbered exercise)
+Input `"one two two"` gives 3 words and 2 distinct words. The lab has an empty declared dependency set (`requirements.txt`), a worked explanation, and a command that runs in a clean virtual environment.
+See [applied-labs/r27-t047](./applied-labs/r27-t047/README.md).
