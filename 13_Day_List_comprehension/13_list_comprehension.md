@@ -207,3 +207,10 @@ print(two_power_of_five)  # 32
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 12](../12_Day_Modules/12_modules.md) | [Day 14>>](../14_Day_Higher_order_functions/14_higher_order_functions.md)
+
+
+## Added Activity: Applied Lab R27-T039
+- **Topic:** Filtered comprehension even squares mapping and input-scale experiment.
+- **Location:** [applied-labs/r27-t039](applied-labs/r27-t039/README.md)
+- **Inputs:** `[-2, -1, 0, 1, 2]` and odd-only inputs
+- **Expected Result:** `{-2: 4, 0: 0, 2: 4}`; odd-only gives `{}`; no input mutation.
