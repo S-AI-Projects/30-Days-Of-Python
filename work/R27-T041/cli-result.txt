@@ -1,0 +1,2 @@
+Celsius: 0 C = 32 F
+Celsius: 100 C = 212 F

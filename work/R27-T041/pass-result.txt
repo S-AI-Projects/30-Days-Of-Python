@@ -1,0 +1,12 @@
+test_hundred_celsius (test_example.TestConversion.test_hundred_celsius) ... ok
+test_minus_forty_is_the_same_in_both_scales (test_example.TestConversion.test_minus_forty_is_the_same_in_both_scales) ... ok
+test_zero_celsius (test_example.TestConversion.test_zero_celsius) ... ok
+test_cli_converts_hundred (test_example.TestModuleVersusCli.test_cli_converts_hundred) ... ok
+test_cli_converts_zero (test_example.TestModuleVersusCli.test_cli_converts_zero) ... ok
+test_import_prints_nothing_and_never_reads_input (test_example.TestModuleVersusCli.test_import_prints_nothing_and_never_reads_input) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.052s
+
+OK
+exit code: 0
