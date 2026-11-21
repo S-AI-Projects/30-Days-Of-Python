@@ -1,0 +1,18 @@
+test_date_only_is_rejected (test_example.TestElapsedSeconds.test_date_only_is_rejected) ... ok
+test_garbage_text_is_rejected (test_example.TestElapsedSeconds.test_garbage_text_is_rejected) ... ok
+test_main_example (test_example.TestElapsedSeconds.test_main_example) ... ok
+test_missing_offset_in_end_is_rejected (test_example.TestElapsedSeconds.test_missing_offset_in_end_is_rejected) ... ok
+test_missing_offset_in_start_is_rejected (test_example.TestElapsedSeconds.test_missing_offset_in_start_is_rejected) ... ok
+test_reverse_order_is_negative (test_example.TestElapsedSeconds.test_reverse_order_is_negative) ... ok
+test_size_1 (test_example.TestInputSizes.test_size_1) ... ok
+test_size_10 (test_example.TestInputSizes.test_size_10) ... ok
+test_size_100 (test_example.TestInputSizes.test_size_100) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK
+size=1 pairs, parse_calls=2
+size=10 pairs, parse_calls=20
+size=100 pairs, parse_calls=200
+exit code: 0
