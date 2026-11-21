@@ -501,3 +501,10 @@ if __name__ == '__main__':
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 28](../28_Day_API/28_API.md) | [Day 30 >>](../30_Day_Conclusions/30_conclusions.md)
+
+
+## Added Activity: Applied Lab R27-T035
+- **Topic:** Installable mini-package word-count function and CLI entry point with deterministic fixtures.
+- **Location:** [applied-labs/r27-t035](applied-labs/r27-t035/README.md)
+- **Inputs:** `"a b a"`
+- **Expected Result:** Counts 3 words with exit code 0; supports `--help` and demonstrates deterministic fixture agreement.
