@@ -305,3 +305,8 @@ print(fruits_and_veges)
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 16](../16_Day_Python_date_time/16_python_datetime.md) | [Day 18 >>](../18_Day_Regular_expressions/18_regular_expressions.md)
+
+
+### Added activity: Merge Defaults with Allowed Overrides (applied lab, not an original numbered exercise)
+With defaults `{limit: 10, reverse: False}`, the override `limit=3` gives `{limit: 3, reverse: False}`; the unknown key `limt` raises `ValueError`. The lab refactors a working version by extracting one named responsibility without changing the contract.
+See [applied-labs/r27-t046](./applied-labs/r27-t046/README.md).

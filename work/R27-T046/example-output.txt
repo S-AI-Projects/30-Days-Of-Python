@@ -1,0 +1,2 @@
+{'limit': 3, 'reverse': False}
+rejected: Unknown option(s): limt
