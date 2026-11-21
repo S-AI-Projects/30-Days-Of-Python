@@ -305,3 +305,10 @@ print(fruits_and_veges)
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 16](../16_Day_Python_date_time/16_python_datetime.md) | [Day 18 >>](../18_Day_Regular_expressions/18_regular_expressions.md)
+
+
+## Added Activity: Applied Lab R27-T037
+- **Topic:** Keyword merging with allowed-key validation and exception handling.
+- **Location:** [applied-labs/r27-t037](applied-labs/r27-t037/README.md)
+- **Inputs:** `defaults={'limit': 10, 'reverse': False}`, override `limit=3`, invalid `limt=3`
+- **Expected Result:** `{'limit': 3, 'reverse': False}`; rejects unknown key `limt` with `KeyError`.

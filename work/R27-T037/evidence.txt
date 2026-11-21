@@ -1,0 +1,14 @@
+=== Tool Versions ===
+Python 3.14.7
+git version 2.50.1 (Apple Git-155)
+
+=== Test Results ===
+test_fixture_override_limit (test_example.TestKeywordMerging.test_fixture_override_limit) ... ok
+test_fixture_unknown_key_rejected (test_example.TestKeywordMerging.test_fixture_unknown_key_rejected) ... ok
+test_no_overrides (test_example.TestKeywordMerging.test_no_overrides) ... ok
+test_override_multiple_keys (test_example.TestKeywordMerging.test_override_multiple_keys) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
