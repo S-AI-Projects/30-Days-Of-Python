@@ -106,3 +106,10 @@ For reference check the [beautifulsoup documentation](https://www.crummy.com/sof
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 21](../21_Day_Web_scraping/21_class_and_object.md) | [Day 23 >>](../23_Day_Virtual_environment/23_virtual_environment.md)
+
+
+## Added Activity: Applied Lab R27-T040
+- **Topic:** Bounded HTML extraction and regression-focused lab.
+- **Location:** [applied-labs/r27-t040](applied-labs/r27-t040/README.md)
+- **Inputs:** Local HTML with `<a href="/docs">Docs</a>` under `https://example.invalid`
+- **Expected Result:** Resolves to `https://example.invalid/docs`; skips links without `href`.
