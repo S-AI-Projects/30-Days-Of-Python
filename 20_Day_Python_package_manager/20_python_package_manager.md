@@ -457,3 +457,21 @@ The **__init__**.py exposes specified resources from its modules to be imported 
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 19](../19_Day_File_handling/19_file_handling.md) | [Day 21 >>](../21_Day_Classes_and_objects/21_classes_and_objects.md)
+## Added activity: Isolated dependencies and text statistics
+
+This is an added activity, not one of the numbered exercises.
+
+- Lab: [applied-labs/r27-t047](./applied-labs/r27-t047/)
+- Inputs: `text_statistics("one two two")`
+- Expected results: `{'total_words': 3, 'distinct_words': 2}`
+
+### Worked Explanation: Input -> Intermediate State -> Output
+
+1. **Input**:
+   Raw string: `"one two two"`
+2. **Intermediate State**:
+   - Tokenization via whitespace split: `['one', 'two', 'two']` (total tokens = 3)
+   - Unique set transformation: `{'one', 'two'}` (distinct tokens = 2)
+3. **Output**:
+   Summary mapping: `{'total_words': 3, 'distinct_words': 2}`
+
