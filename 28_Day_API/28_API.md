@@ -160,3 +160,11 @@ The GET, POST, PUT and DELETE are the HTTP request methods which we are going to
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 27](../27_Day_Python_with_mongodb/27_python_with_mongodb.md) | [Day 29 >>](../29_Day_Building_API/29_building_API.md)
+## Added activity: HTTP contract testing with regression mutant detection
+
+This is an added activity, not one of the numbered exercises.
+
+- Lab: [applied-labs/r27-t060](./applied-labs/r27-t060/)
+- Inputs: `POST /items {"item": "notebook"}`, `GET /items`, `POST /items {invalid}`, `DELETE /items`
+- Expected results: `201 Created`, `200 OK` listing items, `400 Bad Request`, and `405 Method Not Allowed`
+
