@@ -33,6 +33,18 @@ In the process of preparing this material I  have learned quite a lot and you ha
 ## Testimony
 Now it is time to express your thoughts about the Author and 30DaysOfPython. You can leave your testimonial on this [link](https://www.asabeneh.com/testimonials)
 
+## Added Activity: Applied Lab — Capstone Expense Summarizer (`R27-T021`)
+
+> **Note:** This is an added applied activity and not an original numbered exercise.
+
+- **Lab directory**: [`30_Day_Conclusions/applied-labs/r27-t021`](./applied-labs/r27-t021/README.md) ([`example.py`](./applied-labs/r27-t021/example.py))
+- **Inputs**: Local CSV lines `food,12.50`, `food,7.50`, and `travel,5.00` (plus negative expense rows such as `food,-3.00` on line 2 to verify validation).
+- **Expected result**: Valid category totals aggregate to `food=20.00` and `travel=5.00`, while invalid negative expenses are rejected and reported by their 1-based line number.
+- **Verification command**:
+  ```sh
+  python3 -m unittest discover -s 30_Day_Conclusions/applied-labs/r27-t021 -p "test_*.py"
+  ```
+
 GIVE FEEDBACK:
 http://thirtydayofpython-api.herokuapp.com/feedback
 
