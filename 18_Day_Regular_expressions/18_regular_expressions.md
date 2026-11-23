@@ -457,3 +457,21 @@ distance = 8 -(-12) # 20
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 17](../17_Day_Exception_handling/17_exception_handling.md) | [Day 19>>](../19_Day_File_handling/19_file_handling.md)
+## Added activity: Regular-expression groups and date validation (worked explanation)
+
+This is an added activity, not one of the numbered exercises.
+
+- Lab: [applied-labs/r27-t057](./applied-labs/r27-t057/)
+- Inputs: `extract_date('2024-02-29')`, `extract_date('2023-02-29')`, `extract_date('text without a token')`
+- Expected results: `'2024-02-29'`, `ValueError`, and `None`
+
+### Worked Explanation: Input -> Intermediate State -> Output
+
+1. **Input**: Text string containing candidate date substring (e.g., `"Meeting on 2024-02-29"`).
+2. **Intermediate State**:
+   - Named group regex match: `(?P<year>\d{4})-(?P<month>\d{2})-(?P<day>\d{2})`
+   - Named capture groups: `{'year': '2024', 'month': '02', 'day': '29'}`
+   - Type conversion to integers: `year=2024, month=2, day=29`
+   - Calendar date validation: `validate_date(year, month, day)` verifies leap year compatibility.
+3. **Output**: Validated date token `'2024-02-29'` (or `ValueError` / `None`).
+
