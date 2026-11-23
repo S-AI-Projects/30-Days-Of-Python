@@ -365,6 +365,18 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
    - Sort out the ten most spoken languages by location.
    - Sort out the ten most populated countries.
 
+## Added Activity: Applied Lab — Function Composition & Boundary Normalization (`R27-T022`)
+
+> **Note:** This is an added applied activity and not an original numbered exercise.
+
+- **Lab directory**: [`14_Day_Higher_order_functions/applied-labs/r27-t022`](./applied-labs/r27-t022/README.md) ([`example.py`](./applied-labs/r27-t022/example.py))
+- **Inputs**: `"  HELLO   World "`, empty/whitespace-only strings (`""`, `"   \t\n  "`), and invalid non-string inputs (`None`, `123`).
+- **Expected result & boundary condition**: `"  HELLO   World "` normalizes to `"hello world"`. The composed pipeline (`strip` $\rightarrow$ `lowercase` $\rightarrow$ `whitespace-collapse`) reaches a fixed-point boundary after one pass so `normalize_text(normalize_text(x)) == normalize_text(x)` (idempotence), empty/whitespace-only strings collapse to `""`, and non-string inputs raise `TypeError`.
+- **Verification command**:
+  ```sh
+  python3 -m unittest discover -s 14_Day_Higher_order_functions/applied-labs/r27-t022 -p "test_*.py"
+  ```
+
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 13](../13_Day_List_comprehension/13_list_comprehension.md) | [Day 15>>](../15_Day_Python_type_errors/15_python_type_errors.md)
