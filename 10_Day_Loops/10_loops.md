@@ -460,6 +460,18 @@ The sum of all numbers is 5050.
    2. Find the ten most spoken languages from the data
    3. Find the 10 most populated countries in the world
 
+## Added Activity: Applied Lab — Run-Length Encoding Input-Scale Experiment (`R27-T028`)
+
+> **Note:** This is an added applied activity and not an original numbered exercise.
+
+- **Lab directory**: [`10_Day_Loops/applied-labs/r27-t028`](./applied-labs/r27-t028/README.md) ([`example.py`](./applied-labs/r27-t028/example.py))
+- **Inputs**: `"aaabbc"`, `""`, `"aaa"`, and three bounded input sizes (`N=0` `""`, `N=6` `"aaabbc"`, and `N=60` `"aaabbc" * 10`).
+- **Expected result**: `"aaabbc"` $\rightarrow$ `[("a", 3), ("b", 2), ("c", 1)]`, `""` $\rightarrow$ `[]`, `"aaa"` $\rightarrow$ `[("a", 3)]`, with deterministic operation counts reported for each scale (`symbol_inspections = N`, `comparisons = max(0, N - 1)`).
+- **Verification command**:
+  ```sh
+  python3 -m unittest discover -s 10_Day_Loops/applied-labs/r27-t028 -p "test_*.py"
+  ```
+
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 9](../09_Day_Conditionals/09_conditionals.md) | [Day 11 >>](../11_Day_Functions/11_functions.md)
