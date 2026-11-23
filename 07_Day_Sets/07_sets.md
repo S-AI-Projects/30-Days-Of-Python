@@ -430,6 +430,18 @@ age = [22, 19, 24, 25, 26, 24, 25, 24]
 2. Explain the difference between the following data types: string, list, tuple and set
 3. _I am a teacher and I love to inspire and teach people._ How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
 
+## Added Activity: Applied Lab — Enrolment Sets Reference Comparison (`R27-T023`)
+
+> **Note:** This is an added applied activity and not an original numbered exercise.
+
+- **Lab directory**: [`07_Day_Sets/applied-labs/r27-t023`](./applied-labs/r27-t023/README.md) ([`example.py`](./applied-labs/r27-t023/example.py))
+- **Inputs**: Student enrolment sets `A = {"Ana", "Bo"}` and `B = {"Bo", "Cy"}` (alongside disjoint, identical, and empty-set reference table cases).
+- **Expected result**: `intersection = {"Bo"}`, `first-only = {"Ana"}`, and `union = {"Ana", "Bo", "Cy"}`, verified against an independent expected-result table and a loop-based reference implementation.
+- **Verification command**:
+  ```sh
+  python3 -m unittest discover -s 07_Day_Sets/applied-labs/r27-t023 -p "test_*.py"
+  ```
+
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 6](../06_Day_Tuples/06_tuples.md) | [Day 8 >>](../08_Day_Dictionaries/08_dictionaries.md)
