@@ -1214,3 +1214,11 @@ print(df[df['Ages'] < 120])
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 24](../24_Day_Statistics/24_statistics.md) | [Day 26 >>](../26_Day_Python_web/26_python_web.md)
+## Added activity: Small CSV analysis with failure and recovery handling
+
+This is an added activity, not one of the numbered exercises.
+
+- Lab: [applied-labs/r27-t058](./applied-labs/r27-t058/)
+- Inputs: `analyze_csv("A:2,A:3,B:4")`, `analyze_csv("A:2\nA:bad\nB:4")`
+- Expected results: `{'A': {'count': 2, 'sum': 5}, 'B': {'count': 1, 'sum': 4}}` and `MalformedRowError(line_number=2)` with immediate recovery on subsequent valid inputs
+
