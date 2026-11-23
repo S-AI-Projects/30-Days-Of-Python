@@ -498,6 +498,18 @@ if __name__ == '__main__':
 
 1. Implement the above example and develop [this](https://thirtydayofpython-api.herokuapp.com/)
 
+## Added Activity: Applied Lab — Installable Word-Count Mini-Package (`R27-T029`)
+
+> **Note:** This is an added applied activity and not an original numbered exercise.
+
+- **Lab directory**: [`29_Day_Building_API/applied-labs/r27-t029`](./applied-labs/r27-t029/README.md) ([`example.py`](./applied-labs/r27-t029/example.py))
+- **Inputs**: `"a b a"` and `--help` passed to the installed `r27-wordcount` CLI from outside the source directory, plus a one-line mutant of the decisive token-counting condition (`len(set(tokens))` vs `len(tokens)`).
+- **Expected result**: The installed CLI counts `"a b a"` as `3` words with exit code `0`, `--help` succeeds outside the source directory with exit code `0`, and the focused regression test passes on `word_count` while failing on the one-line deduplicating mutant.
+- **Verification command**:
+  ```sh
+  python3 -m unittest discover -s 29_Day_Building_API/applied-labs/r27-t029 -p "test_*.py"
+  ```
+
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 28](../28_Day_API/28_API.md) | [Day 30 >>](../30_Day_Conclusions/30_conclusions.md)
