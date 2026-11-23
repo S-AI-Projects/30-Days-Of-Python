@@ -511,6 +511,18 @@ field: skills
    2) Count the number lines containing JavaScript, javascript or Javascript
    3) Count the number lines containing Java and not JavaScript
 
+## Added Activity: Applied Lab — UTF-8 CSV Round Trip & Recovery (`R27-T027`)
+
+> **Note:** This is an added applied activity and not an original numbered exercise.
+
+- **Lab directory**: [`19_Day_File_handling/applied-labs/r27-t027`](./applied-labs/r27-t027/README.md) ([`example.py`](./applied-labs/r27-t027/example.py))
+- **Inputs**: Empty record list `[]`, invalid score input `[{"name": "Broken", "score": "not-an-int"}]`, and valid quoted-comma record `[{"name": "Ada, Jr.", "score": 7}]`.
+- **Expected result**: Empty data produces only the CSV header (`"name,score\n"`), invalid input is captured cleanly without restarting the session, and the subsequent valid record with `name="Ada, Jr."` and `score=7` survives the UTF-8 `csv.DictWriter` / `csv.DictReader` round trip intact.
+- **Verification command**:
+  ```sh
+  python3 -m unittest discover -s 19_Day_File_handling/applied-labs/r27-t027 -p "test_*.py"
+  ```
+
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 18](../18_Day_Regular_expressions/18_regular_expressions.md) | [Day 20 >>](../20_Day_Python_package_manager/20_python_package_manager.md)
