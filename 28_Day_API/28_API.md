@@ -157,6 +157,22 @@ The GET, POST, PUT and DELETE are the HTTP request methods which we are going to
 
 1. Read about API and HTTP
 
+## Added Activity: Applied Lab — Local `/items` HTTP Contract (`R27-T026`)
+
+> **Note:** This is an added applied activity and not an original numbered exercise.
+
+- **Lab directory**: [`28_Day_API/applied-labs/r27-t026`](./applied-labs/r27-t026/README.md) ([`example.py`](./applied-labs/r27-t026/example.py))
+- **Inputs & worked walkthrough**: Against an injected in-memory store `store = []`:
+  1. `POST /items` with `'{"id": 1, "name": "notebook"}'` parses the JSON payload, appends the item to `store`, and returns status `201`.
+  2. `GET /items` reads the current `store` snapshot and returns status `200` with `[{"id": 1, "name": "notebook"}]`.
+  3. `POST /items` with malformed JSON `'{"id": 2, "name": '` fails validation, leaves `store` unchanged, and returns status `400`.
+  4. `DELETE /items` (unsupported verb) leaves `store` unchanged and returns status `405`.
+- **Expected result**: Statuses `[201, 200, 400, 405]` and final store `[{"id": 1, "name": "notebook"}]`, directly executed by `run_published_lesson_example()` in the test suite.
+- **Verification command**:
+  ```sh
+  python3 -m unittest discover -s 28_Day_API/applied-labs/r27-t026 -p "test_*.py"
+  ```
+
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 27](../27_Day_Python_with_mongodb/27_python_with_mongodb.md) | [Day 29 >>](../29_Day_Building_API/29_building_API.md)
