@@ -478,7 +478,19 @@ To run the python file check the image below. You can run the python file either
 ### Exercise: Level 3
 
 1. Write an example for different Python data types such as Number(Integer, Float, Complex), String, Boolean, List, Tuple, Set and Dictionary.
-2. Find an [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance#:~:text=In%20mathematics%2C%20the%20Euclidean%20distance,being%20called%20the%20Pythagorean%20distance.) between (2, 3) and (10, 8)
+2. Find an [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance#:~:text=In%20mathematics%2C%20the%20Euclidean_distance,being%20called%20the%20Pythagorean%20distance.) between (2, 3) and (10, 8)
+
+## Added Activity: Applied Lab — Day 1 Arithmetic Report Refactor (`R27-T030`)
+
+> **Note:** This is an added applied activity and not an original numbered exercise.
+
+- **Lab directory**: [`./applied-labs/r27-t030`](./applied-labs/r27-t030/README.md) ([`example.py`](./applied-labs/r27-t030/example.py))
+- **Inputs**: Integer pairs `(7, 3)` and `(0, 0)`.
+- **Expected result**: `(7, 3)` returns `{"sum": 10, "difference": 4, "product": 21}` and `(0, 0)` returns `{"sum": 0, "difference": 0, "product": 0}`, with integer validation extracted into `validate_integer_pair` while preserving identical behavior to `arithmetic_report_initial`.
+- **Verification command**:
+  ```sh
+  python3 -m unittest discover -s ./applied-labs/r27-t030 -p "test_*.py"
+  ```
 
 🎉 CONGRATULATIONS ! 🎉
 
