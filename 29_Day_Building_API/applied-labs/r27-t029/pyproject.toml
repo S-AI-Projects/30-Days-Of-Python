@@ -1,0 +1,13 @@
+[build-system]
+requires = []
+build-backend = "_pep517_backend"
+backend-path = ["."]
+
+[project]
+name = "r27-t029-wordcount"
+version = "0.1.0"
+description = "Day 29 installable mini-package exposing word_count and CLI entry point"
+requires-python = ">=3.8"
+
+[project.scripts]
+r27-wordcount = "wordcount_pkg.cli:main"
