@@ -1235,6 +1235,18 @@ To summarize, the main differences with python lists are:
 
 1. Repeat all the examples
 
+## Added Activity: Applied Lab — Missing-Value Summary & State Invariants (`R27-T024`)
+
+> **Note:** This is an added applied activity and not an original numbered exercise.
+
+- **Lab directory**: [`24_Day_Statistics/applied-labs/r27-t024`](./applied-labs/r27-t024/README.md) ([`example.py`](./applied-labs/r27-t024/example.py))
+- **Inputs**: `[1, None, 3, 5]` and all-missing `[None, None]`.
+- **Expected result & invariants**: `[1, None, 3, 5]` produces `count=3, missing_count=1, mean=3, median=3`, and all-missing inputs produce `mean=None, median=None` (`null`), preserving the state invariants `count + missing_count == len(observations)` and `(count == 0) == (mean is None and median is None)` across sequential updates.
+- **Verification command**:
+  ```sh
+  python3 -m unittest discover -s 24_Day_Statistics/applied-labs/r27-t024 -p "test_*.py"
+  ```
+
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 23](../23_Day_Virtual_environment/23_virtual_environment.md) | [Day 25 >>](../25_Day_Pandas/25_pandas.md)
