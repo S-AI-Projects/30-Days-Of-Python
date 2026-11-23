@@ -23,3 +23,4 @@
 From the repository root:
 
     python3 -m unittest discover -s 20_Day_Python_package_manager/applied-labs/r27-t047 -p "test_*.py"
+
