@@ -285,3 +285,11 @@ Enter number two: 3
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 8](../08_Day_Dictionaries/08_dictionaries.md) | [Day 10 >>](../10_Day_Loops/10_loops.md)
+## Added activity: Shipping bands state and invariant verification
+
+This is an added activity, not one of the numbered exercises.
+
+- Lab: [applied-labs/r27-t059](./applied-labs/r27-t059/)
+- Inputs: `calculate_shipping(49.99)`, `calculate_shipping(50)`, `calculate_shipping(99.99)`, `calculate_shipping(100)`, `calculate_shipping(-1)`
+- Expected results: `10`, `5`, `5`, `0`, and `ValueError`
+
