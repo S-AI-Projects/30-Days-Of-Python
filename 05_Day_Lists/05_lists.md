@@ -583,6 +583,18 @@ ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 1. Divide the countries list into two equal lists if it is even if not one more country for the first half.
 1. ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
 
+## Added Activity: Applied Lab — Ordered List Deduplication (`R27-T025`)
+
+> **Note:** This is an added applied activity and not an original numbered exercise.
+
+- **Lab directory**: [`05_Day_Lists/applied-labs/r27-t025`](./applied-labs/r27-t025/README.md) ([`example.py`](./applied-labs/r27-t025/example.py))
+- **Inputs**: Repeatable local list fixtures `[3, 1, 3, 2, 1]` and `[]` with an injected deterministic clock and event sink.
+- **Expected result**: `[3, 1, 3, 2, 1]` deduplicates to `[3, 1, 2]` while the input list remains `[3, 1, 3, 2, 1]`, `[]` stays `[]`, and two isolated runs produce identical results.
+- **Verification command**:
+  ```sh
+  python3 -m unittest discover -s 05_Day_Lists/applied-labs/r27-t025 -p "test_*.py"
+  ```
+
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 4](../04_Day_Strings/04_strings.md) | [Day 6 >>](../06_Day_Tuples/06_tuples.md)
